@@ -22,12 +22,12 @@ using std::cin;
 Utils utils;
 WebShit* g_pWebShit = new WebShit();
 
-D3DMenu*		AHAHAHAHAR(F		= new D3DMenu();
-AimbotMenu*		REEEEEEE	= new AimbotMenu();
-TriggerMenu*	MEMES	= new TriggerMenu();
-VisualsMenu*	FUCKYOU	= new VisualsMenu();
-MiscMenu*		BITCH	= new MiscMenu();
-ConfigMenu*		CUNT	= new ConfigMenu();
+D3DMenu*	d3dmenu	= new D3DMenu();
+AimbotMenu*	aimbotMenu = new AimbotMenu();
+TriggerMenu*	triggerMenu = new TriggerMenu();
+VisualsMenu*	visualsMenu = new VisualsMenu();
+MiscMenu*	miscMenu = new MiscMenu();
+ConfigMenu*	configMenu = new ConfigMenu();
 
 void Render()
 {
